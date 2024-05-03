@@ -47,10 +47,49 @@ const users = [
 ];
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+//console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+
+
+
+// ----------OBJECT DESTRUCTURE ---------//
+const course = {
+  coursename: "JS in hindi",
+  pric: "999",
+  courseInstructor: "Hitesh"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course 
+
+//console.log(courseInstructor);
+console.log(instructor);
+
+
+/* DESTRUCTURING IN REACT */
+// const navbar = ({company}) =>{
+
+// }
+// navbar(company= "Sanjeet")
+
+
+// JSON FORM
+// {
+//   "name": "Sanjeet",
+//   "coursename": "JS in Hindi",
+//   "price": "free"
+// }
+
+[
+  {},
+  {},
+  {}
+]
