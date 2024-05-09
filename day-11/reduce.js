@@ -35,7 +35,12 @@ const shoppingCart = [
     itemName: "Data Science Course",
     price: 12999,
   },
-]
+
+  {
+    itemName: "Cyber Security",
+    price: 14999,
+  },
+];
 
 const priceToPay = shoppingCart.reduce((acc ,item) => acc + item.price, 0)
 console.log(priceToPay);
