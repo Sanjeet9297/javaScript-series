@@ -40,6 +40,11 @@ const shoppingCart = [
     itemName: "Cyber Security",
     price: 14999,
   },
+
+  {
+    itemName: "JAVA",
+    price: 11999,
+  },
 ];
 
 const priceToPay = shoppingCart.reduce((acc ,item) => acc + item.price, 0)
