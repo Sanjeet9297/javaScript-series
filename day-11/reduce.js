@@ -53,7 +53,7 @@ const shoppingCart = [
 
   {
     itemName: "Database",
-    price: 7999,
+    price: 8000,
   },
 ];
 
