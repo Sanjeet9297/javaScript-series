@@ -50,6 +50,11 @@ const shoppingCart = [
     itemName: "MY SQL",
     price: 1299,
   },
+
+  {
+    itemName: "Database",
+    price: 7999,
+  },
 ];
 
 const priceToPay = shoppingCart.reduce((acc ,item) => acc + item.price, 0)
